@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  background-image: url(./TempLanding.png);
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .App-logo {
