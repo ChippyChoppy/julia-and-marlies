@@ -1,7 +1,10 @@
 .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  background-image: url(./ComingSoon.svg);
-  background-repeat: no-repeat; 
+  background-image: url(./ComingSoonDecoPattern.svg);
+  background-repeat: repeat repeat; 
   background-position: center center;
   background-attachment: fixed;
   height: 100vh;
