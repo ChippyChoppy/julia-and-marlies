@@ -4,18 +4,23 @@ import nameDate from './JandMwithDate.svg';
 import styled from 'styled-components';
 
 const NameDate = styled.img `
-@media(max-width: 500px) {
-  width: 90%;
-}
   width: 69%;
-  padding: 6% 0% 3% 2%;`
+  padding: 6% 0% 3% 2%;
+  @media screen and (orientation: portrait) {
+  width: 85%;
+  padding: 4% 0% 6% 0%;
+}
+`
 
 const ComingSoon = styled.img `
-@media (max-width: 500px) {
-  max-width: 75%;
+  width: 35%;
+  padding: 0% 3% 0% 0%; 
+  @media screen and (orientation: portrait) {
+  width: 69%;
+  height: auto;
+  padding: 0% 0% 4% 0%;
+
 }
-  height: 64%;
-  padding: 0% 3% 0% 0%;
 `
 
 function App() {
