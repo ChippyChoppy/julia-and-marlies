@@ -1,6 +1,6 @@
 import './App.css';
-import banner from './ComingSoonBanner.svg';
-import nameDate from './JandMwithDate.svg';
+import banner from './svgFiles/ComingSoonBanner.svg';
+import nameDate from './svgFiles/JandMwithDate.svg';
 import styled from 'styled-components';
 
 const NameDate = styled.img `
