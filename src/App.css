@@ -1,13 +1,16 @@
 
-  
+  @media screen and (orientation: portrait) {
   .App {
-  
-  display: flex;
+        flex-direction: column;
+  }
+}
+  .App {
+  /* display: flex;
   flex-direction: row;
 
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
   background-image: url(./svgFiles/ComingSoonDecoPattern.svg);
   background-repeat: repeat repeat; 
   background-position: center center;
@@ -55,9 +58,3 @@
   }
 }
 
-@media screen and (orientation: portrait) {
-  .App {
-        flex-direction: column;
-
-  }
-}
