@@ -1,10 +1,7 @@
 @charset "UTF-8";  
 
 body {
-  background-color: #1D2180;
-  /* background-image: url(./ComingSoonDecoPattern.svg);
-  background-repeat: repeat;
-  background-size: auto; */
+  background-color: #f8fff4;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,7 +11,6 @@ body {
 }
 * {
     font-family: 'Champagne & Limousines Regular';
-
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -30,14 +26,12 @@ code {
   src: local('Champagne & Limousines Regular'), url(./fonts/Champagne&Limousines.woff) format('woff');
   }
   
-
   @font-face {
   font-family: 'Champagne & Limousines Italic';
   font-style: normal;
   font-weight: normal;
   src: local('Champagne & Limousines Italic'), url(./fonts/Champagne&LimousinesItalic.woff) format('woff');
   }
-  
 
   @font-face {
   font-family: 'Champagne & Limousines Bold';
@@ -45,7 +39,6 @@ code {
   font-weight: normal;
   src: local('Champagne & Limousines Bold'), url(./fonts/Champagne&LimousinesBold.woff) format('woff');
   }
-  
 
   @font-face {
   font-family: 'Champagne & Limousines Bold Italic';
@@ -53,7 +46,6 @@ code {
   font-weight: normal;
   src: local('Champagne & Limousines Bold Italic'), url(./fonts/Champagne&LimousinesBoldItalic.woff) format('woff');
   }
-
 
 /*============================== 
 	- Template Name: MARRY - Responsive HTML Wedding Template
@@ -261,12 +253,12 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a{
-	color:#4a4a4a;
+	color:#0b153a;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, 
 h4 a:hover, h5 a:hover, h6 a:hover{
-	color:#f98d8a;
+	color:#b3e7fa;
 }
 
 h1, .h1{
@@ -333,11 +325,11 @@ p.lead{
 
 a{
 	text-decoration:none;
-	color:#f98d8a;
+	color:#340482;
 }
 
 a.grey-link{
-	color:#6a6a6a;
+	color:#bb99da;
 }
 
 a.with-underline{
@@ -346,7 +338,7 @@ a.with-underline{
 
 a:hover{
 	text-decoration:none;
-	color:#f98d8a;
+	color:#340482;
 }
 
 .clearboth{
@@ -366,7 +358,7 @@ img.fullwidth{
 }
 
 img.with-border{
-	border:1px solid #6a6a6a;
+	border:1px solid #7fc797;
 }
 
 img.rounded{
@@ -382,7 +374,7 @@ img.rounded{
 }
 
 .theme-color{
-	color:#f98d8a;
+	color:#340482;
 }
 
 .paragraph-row-wrapper{
@@ -445,7 +437,7 @@ img.rounded{
 	position:fixed;
 	height:90px; 
 	width:100%;
-	background-color:#FFF;
+	background-color:#b3e7fa;
 	z-index:1500;
 	visibility:visible;
 	/*-webkit-transform: translateZ(0);*/
@@ -506,9 +498,9 @@ img.rounded{
 	list-style-type:none; 
 	margin:0; 
 	padding:25px 0 0 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Champagne & Limousines Bold', sans-serif;
 	font-weight:700;
-	font-size:14px;
+	font-size:18px;
 	letter-spacing:1px;
 	z-index:1000;
 }
@@ -877,7 +869,7 @@ img.rounded{
 	border-color:#666; 
 }
 
-.his-initial{
+.her1-initial{
 	position:absolute; 
 	font-family: 'Montserrat', sans-serif; 
 	font-weight:700; 
@@ -885,7 +877,7 @@ img.rounded{
 	top:20px;
 }
 
-.her-initial{
+.her2-initial{
 	position:absolute; 
 	font-family: 'Montserrat', sans-serif; 
 	font-weight:700; 
