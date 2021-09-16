@@ -1,9 +1,11 @@
 import './App.css';
+import React from 'react';
+import Test from './Test';
 import banner from './svgFiles/ComingSoonBanner.svg';
 import nameDate from './svgFiles/JandMwithDate.svg';
 import styled from 'styled-components';
 
-const NameDate = styled.img `
+const NameDate = styled.img`
   width: 69%;
   padding: 6% 0% 3% 2%;
   @media screen and (orientation: portrait) {
@@ -12,7 +14,7 @@ const NameDate = styled.img `
 }
 `
 
-const ComingSoon = styled.img `
+const ComingSoon = styled.img`
   width: 35%;
   padding: 0% 3% 0% 0%; 
   @media screen and (orientation: portrait) {
@@ -28,6 +30,9 @@ function App() {
     <div className="App">
       <NameDate src={nameDate} alt="Julia And Marlies, June 25, 2022" />
       <ComingSoon src={banner} alt="Celebration information coming soon!" />
+      <div>
+        <Test />
+      </div>
     </div>
   );
 }
