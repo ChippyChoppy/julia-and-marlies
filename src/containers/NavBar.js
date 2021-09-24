@@ -1,4 +1,11 @@
 import React from "react";
+import JandMLogo from '../images/J&MNavBar.svg'
+import styled from "styled-components";
+
+const JMLogo = styled.img `
+height: 75px;
+width: auto;
+`
 
 function NavBar() {
     return (
@@ -17,12 +24,7 @@ function NavBar() {
                         {/* <!-- LOGO 3 -->                         */}
                         <div class="logo-scale-wrapper">
                         	<div class="wedding-logo">
-                            	<div class="line-1"></div>
-                                <div class="line-2"></div>
-                                <div class="her1-initial">J</div>
-                                <div class="her2-initial">M</div>
-                                <div class="top-heart"><i class="de-icon-heart"></i></div>
-                                <div class="bottom-heart"><i class="de-icon-heart"></i></div>
+                            <JMLogo class="custom-logo" src={JandMLogo} ></JMLogo>
                           	</div>
                       	</div>
                     </div>
@@ -38,12 +40,12 @@ function NavBar() {
                    		<li>
                         	<a href="#">STORY</a>
                             <ul>
-                            	<li>
+                            	{/* <li>
                                 	<a href="about-her.html">Her Story</a>
                                 </li>
                                 <li>
-                                	<a href="about-him.html">His Story</a>
-                                </li>
+                                	<a href="about-him.html">Her Story</a>
+                                </li> */}
                                 <li>
                                 	<a href="our-story.html">Our Story</a>
                                 </li>

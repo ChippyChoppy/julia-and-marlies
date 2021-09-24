@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Home from './components/Home';
+import Home from './containers/Home';
 // import PreLoader from './components/PreLoader';
 
 function App() {
